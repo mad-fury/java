@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class Main {
+   
+    private static void println(String str) {
+        System.out.println(str);
+    }
+
+    private static void print(String str) {
+        System.out.print(str);
+    }
+
+    private static void printRectangle(int height, int width, String c) {
+        for (int i = 0; i < height; i++) {
+            if (i == 0 || i == height - 1) {
+                
+                for (int j = 0; j < width; j++) {
+                    print(c);
+                }
+                println("");
+            } else {
+               
+                for (int j = 0; j < width; j++) {
+                    if (j == 0 || j == width - 1) {
+                        
+                        print(c);
+                    } else {
+                        
+                        print(" ");
+                    }
+                }
+                println(""); 
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        print("Enter the height of the rectangle : ");
+        int height = scanner.nextInt();
+
+        print("Enter the width of the rectangle : ");
+        int width = scanner.nextInt();
+
+        print("Enter the character you want to print the rectangle : ");
+        String c = scanner.next();
+
+        printRectangle(height, width, c);
+    }
+
+}
