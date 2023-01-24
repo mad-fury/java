@@ -1,0 +1,35 @@
+import java.util.scanner
+{
+public static int reverse number(int number)
+{
+if reverse=0
+while(number!=0)
+{
+public static boolean number(int number)
+if reminder=number%10;
+rev=num*10+rem;
+num=num/10;
+{
+if(rev==num);
+{
+(return true)
+{
+else
+{
+(return false)
+}
+public static void int(int num)
+{
+system.out.println("num + "+" + rev +"=" + sum");
+if (num==sum);
+}
+}
+}
+public static void main(string[] args);
+println num=(" ");
+system.out.println rev=("0")
+}
+}
+
+
+
